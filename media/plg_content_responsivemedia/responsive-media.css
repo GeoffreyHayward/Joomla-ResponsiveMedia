@@ -1,0 +1,72 @@
+/* Resposive Instagram */
+.youtube-container{ 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
+    width: 100% 
+} 
+.youtube-container iframe, 
+.youtube-container object, 
+.youtube-container embed{ 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Resposive Vimeo */
+.vimeo-container{ 
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden; 
+    width: 100% 
+} 
+.vimeo-container iframe, 
+.vimeo-container object, 
+.vimeo-container embed{
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Resposive Instagram */
+.instagram-container {
+    position: relative; 
+    padding-bottom: 120%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+} 
+.instagram-container iframe, 
+.instagram-container object, 
+.instagram-container embed { 
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
+
+/* Resposive iframe */
+.iframe-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
+    width: 100% } 
+.iframe-container iframe, 
+.iframe-container object, 
+.iframe-container embed {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+}
