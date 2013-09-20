@@ -3,14 +3,14 @@ defined('_JEXEC') or die('Restricted index access');
 jimport('joomla.plugin.plugin');
 
 /**
- * This Joomla plugin 'ResponsiveMedia' helps add rich embeded third-party media into 
- * Joomla articals. All media that is added thoguh this plugin is ready for the
+ * This Joomla plugin 'ResponsiveMedia' helps add rich embedded third-party media into 
+ * Joomla articles. All media that is added through this plugin is ready for the
  * responsive web.
  * 
- * The code here is based on research and work by Theirry Koblentz, 
+ * The CSS and HTML are based on research and work by Theirry Koblentz, 
  * Anders Andersen and Niklaus Gerber. Their work was kindly documented by Jeff Hobbs 
- * with http://embedresponsively.com/ who has permited 
- * 
+ * at http://embedresponsively.com/ who has permitted me to turn this work into a Joomla 
+ * extension.
  * 
  * @author Geoffrey Hayward - http://geoffhayward.eu
  * 
