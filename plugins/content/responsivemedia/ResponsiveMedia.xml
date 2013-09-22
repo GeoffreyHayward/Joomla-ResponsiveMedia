@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension version="2.5" type="plugin" group="content">
-    <name>PLG_EMBED</name>
+    <name>PLG_RESPONSIVEMEDIA</name>
     <author>Geoff Hayward</author>
     <creationDate>August 2013</creationDate>
     <copyright>Copyright (C) 2013 Geoff Hayward. All rights reserved.</copyright>
@@ -21,14 +21,15 @@
     <config>
         <fields name="params">
             <fieldset name="basic">
-                <field name="mode" type="radio"
-                                       default="1"
-                                       description="PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_DESC"
-                                       label="PLG_CONTENT_EMBED_RESPONSIVEMEDIA_LABEL"
+                <field name="credit" type="radio"
+                       default="0"
+                       description="PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_DESC"
+                       label="PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_LABEL"
                 >
                     <option value="0">PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_YES</option>
                     <option value="1">PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_NO</option>
                 </field>
+            </fieldset>
         </fields>
     </config>
 </extension>

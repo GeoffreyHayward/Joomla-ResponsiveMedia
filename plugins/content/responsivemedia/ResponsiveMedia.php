@@ -1,7 +1,7 @@
 <?php 
 defined('_JEXEC') or die('Restricted index access');
-jimport('joomla.plugin.plugin');
-
+jimport('joomla.plugin.plugin'); 
+ 
 /**
  * This Joomla plugin 'ResponsiveMedia' helps add rich embedded third-party media into 
  * Joomla articles. All media that is added through this plugin is ready for the
@@ -9,8 +9,7 @@ jimport('joomla.plugin.plugin');
  * 
  * The CSS and HTML are based on research and work by Theirry Koblentz, 
  * Anders Andersen and Niklaus Gerber. Their work was kindly documented by Jeff Hobbs 
- * at http://embedresponsively.com/ who has permitted me to turn this work into a Joomla 
- * extension.
+ * at http://embedresponsively.com/.
  * 
  * @author Geoffrey Hayward - http://geoffhayward.eu
  * 
@@ -18,17 +17,17 @@ jimport('joomla.plugin.plugin');
  * @version 1.0.0
    @license GNU General Public License version 2 or later; see LICENSE.txt
  */
-class plgContentEmbed extends JPlugin{
+class plgContentResponsiveMedia extends JPlugin{
 
     public function onContentPrepare($context, $row, &$params, $page = 0){    
-        if(preg_match_all('/{js:responsive:(.*?):(.*?)}/', $row->text, $matches)){          
+        if(preg_match_all('/{embed:(.*?):(.*?)}/', $row->text, $matches)){          
             for($index = 0; $index < sizeof($matches[1]); $index++){
                 if(method_exists($this, $matches[1][$index])){
-                   $row->text = preg_replace('/{js:responsive:'.$matches[1][$index].':'.$matches[2][$index].'}/', $this->$matches[1][$index]($matches[2][$index]), $row->text); 
+                   $row->text = preg_replace('/{embed:'.$matches[1][$index].':'.$matches[2][$index].'}/', $this->$matches[1][$index]($matches[2][$index]), $row->text); 
                 }
             }
             $doc = & JFactory::getDocument();
-            $doc->addStyleSheet('media/plg_content_embed/embed.css');
+            $doc->addStyleSheet('media/plg_content_responsivemedia/responsive-media.css');
         }
     }
 
