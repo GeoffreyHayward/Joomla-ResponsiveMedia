@@ -1,3 +1,14 @@
+/**
+ * This Joomla plugin 'ResponsiveMedia' by Geoffrey Hayward - http://geoffhayward.eu 
+ * helps add rich embedded third-party media into Joomla articles. All media that is 
+ * added through this plugin is ready for the responsive web.
+ * 
+ * The CSS and HTML are based on research and work by Theirry Koblentz,  * Anders 
+ * Andersen and Niklaus Gerber. Their work was kindly documented by Jeff Hobbs 
+ * at http://embedresponsively.com/.
+ * 
+ */
+
 /* Resposive Instagram */
 .youtube-container{ 
     position: relative; 
