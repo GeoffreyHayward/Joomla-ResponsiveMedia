@@ -9,7 +9,6 @@
     <authorUrl>http://geoffhayward.eu</authorUrl>
     <version>1.0.0</version>
     <description>PLG_CONTENT_RESPONSIVEMEDIA_XML_DESCRIPTION</description>
-    <scriptfile>script.php</scriptfile>
     <files>
         <filename plugin="ResponsiveMedia">ResponsiveMedia.php</filename>
         <filename>index.html</filename>
@@ -18,6 +17,7 @@
         <language tag="en-GB">en-GB.plg_content_responsivemedia.ini</language>
         <language tag="en-GB">en-GB.plg_content_responsivemedia.sys.ini</language>
     </languages>
+    <scriptfile>script.php</scriptfile>
     <config>
         <fields name="params">
             <fieldset name="basic">
