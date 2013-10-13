@@ -6,7 +6,7 @@
     <copyright>Copyright (C) 2013 Geoff Hayward. All rights reserved.</copyright>
     <license>GNU General Public License version 2 or later</license>
     <authorEmail>opensource@geoffhayward.eu</authorEmail>
-    <authorUrl>www.geoffhayward.eu</authorUrl>
+    <authorUrl>http://geoffhayward.eu</authorUrl>
     <version>1.0.0</version>
     <description>PLG_CONTENT_RESPONSIVEMEDIA_XML_DESCRIPTION</description>
     <files>
@@ -22,12 +22,12 @@
         <fields name="params">
             <fieldset name="basic">
                 <field name="credit" type="radio"
-                       default="0"
+                       default="1"
                        description="PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_DESC"
                        label="PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_LABEL"
                 >
-                    <option value="0">PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_YES</option>
-                    <option value="1">PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_NO</option>
+                    <option value="1">PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_YES</option>
+                    <option value="0">PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_NO</option>
                 </field>
             </fieldset>
         </fields>
