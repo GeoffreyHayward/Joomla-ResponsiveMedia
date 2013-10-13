@@ -97,6 +97,9 @@ tmp/*
 configuration.php
 index.php
 joomla.xml
-*.txt
+web.config.txt
+htaccess.txt
+README.txt
+robots.txt
 notes.html
 robot*

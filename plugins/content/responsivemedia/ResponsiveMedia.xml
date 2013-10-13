@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension version="2.5" type="plugin" group="content">
-    <name>PLG_RESPONSIVEMEDIA</name>
+    <name>plg_content_responsivemedia</name>
     <author>Geoff Hayward</author>
     <creationDate>August 2013</creationDate>
     <copyright>Copyright (C) 2013 Geoff Hayward. All rights reserved.</copyright>
@@ -9,10 +9,10 @@
     <authorUrl>http://geoffhayward.eu</authorUrl>
     <version>1.0.0</version>
     <description>PLG_CONTENT_RESPONSIVEMEDIA_XML_DESCRIPTION</description>
+    <scriptfile>script.php</scriptfile>
     <files>
-        <filename plugin="responsivemedia">ResponsiveMedia.php</filename>
+        <filename plugin="ResponsiveMedia">ResponsiveMedia.php</filename>
         <filename>index.html</filename>
-        <folder>media</folder>
     </files>
     <languages>
         <language tag="en-GB">en-GB.plg_content_responsivemedia.ini</language>
