@@ -52,3 +52,12 @@
     width: 100%; 
     height: 100%; 
 }
+
+/* author credit */
+.responsive-media-credit p{
+    text-align: right;
+    font-style: italic;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+    filter: alpha(opacity=70);
+    opacity: 0.7;
+}
