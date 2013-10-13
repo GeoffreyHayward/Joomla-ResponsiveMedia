@@ -5,7 +5,7 @@ This is a Joomla content plugin that allows you to add YouTube, Vimeo, and Insta
 
 ##How to use it
 
-To add responsive media to a Joomla article you need only add a token in the following form.
+To add responsive media to a Joomla article you need only add a token, anywhere into a Joomla article, in the following form.
 
 **YouTube**
 ```
