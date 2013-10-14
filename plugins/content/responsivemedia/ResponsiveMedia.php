@@ -45,8 +45,7 @@ class plgContentResponsiveMedia extends JPlugin{
     private function credit($iframe){
         if($this->params->get("credit")){
             //Load the language values for JText key.
-            $lang =& JFactory::getLanguage();
-            $lang->load('plg_content_responsivemedia',JPATH_ADMINISTRATOR);
+            $this->loadLanguage();
             return "<div class=\"responsive-media-credit\">".$iframe."<p>".JText::_("PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_TEXT")."</p></div>";
         }else{
             return $iframe;

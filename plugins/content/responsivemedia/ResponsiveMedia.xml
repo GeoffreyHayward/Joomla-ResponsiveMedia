@@ -12,11 +12,8 @@
     <files>
         <filename plugin="ResponsiveMedia">ResponsiveMedia.php</filename>
         <filename>index.html</filename>
+        <folder>language</folder>
     </files>
-    <languages>
-        <language tag="en-GB">en-GB.plg_content_responsivemedia.ini</language>
-        <language tag="en-GB">en-GB.plg_content_responsivemedia.sys.ini</language>
-    </languages>
     <scriptfile>script.php</scriptfile>
     <config>
         <fields name="params">
