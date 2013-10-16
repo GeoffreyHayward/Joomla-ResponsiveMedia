@@ -10,7 +10,7 @@
     <version>1.0.0</version>
     <description>PLG_CONTENT_RESPONSIVEMEDIA_XML_DESCRIPTION</description>
     <files>
-        <filename plugin="ResponsiveMedia">ResponsiveMedia.php</filename>
+        <filename plugin="responsivemedia">ResponsiveMedia.php</filename>
         <filename>index.html</filename>
         <folder>language</folder>
     </files>
