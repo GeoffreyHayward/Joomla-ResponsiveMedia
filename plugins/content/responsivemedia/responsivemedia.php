@@ -43,7 +43,7 @@ class plgContentResponsiveMedia extends JPlugin{
         return $this->credit("<div class=\"instagram-container\"><iframe src=\"http://instagram.com/p/".$item."/embed/\" frameborder=\"0\" scrolling=\"no\" allowtransparency=\"true\"></iframe></div>");
     }
     private function credit($iframe){
-        if($this->params->get("credit")){
+        if($this->params->get("credit") == 1){
             //Load the language values for JText key.
             $this->loadLanguage();
             return "<div class=\"responsive-media-credit\">".$iframe."<p>".JText::_("PLG_CONTENT_RESPONSIVEMEDIA_CREDIT_TEXT")."</p></div>";

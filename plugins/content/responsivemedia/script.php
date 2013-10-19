@@ -5,7 +5,7 @@ jimport('joomla.database.databasequery');
 class plgContentResponsiveMediaInstallerScript {
 
     public function postflight($type, $parent) {
-        if ($type == 'install' || $type == 'discover_install'){
+        if (($type == 'install') || ($type == 'discover_install')){
             $db = JFactory::getDbo();
            try {
                 $query = $db->getQuery(true);
@@ -19,6 +19,7 @@ class plgContentResponsiveMediaInstallerScript {
            } catch (Exception $exception) {
                 throw $exception;
            }
+           JFactory::getCache()->clean();
         }
     }
 }
