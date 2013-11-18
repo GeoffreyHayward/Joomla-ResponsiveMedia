@@ -2,6 +2,12 @@
 defined('_JEXEC') or die('Restricted access');
 jimport('joomla.database.databasequery');
 
+/**
+ * @copyright (c) 2013, Geoffrey Hayward
+ * @version 1.0.0
+ * @license GNU General Public License version 2 or later; see LICENSE.txt
+ */
+
 class plgContentResponsiveMediaInstallerScript {
 
     public function postflight($type, $parent) {
