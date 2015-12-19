@@ -32,6 +32,15 @@ administrator/language/en-GB/en-GB.plg_content_pagebreak.ini
 administrator/language/en-GB/en-GB.plg_content_pagebreak.sys.ini
 administrator/language/en-GB/en-GB.plg_content_pagenavigation.ini
 administrator/language/en-GB/en-GB.plg_content_pagenavigation.sys.ini
+administrator/language/en-GB/en-GB.plg_content_contact.ini
+administrator/language/en-GB/en-GB.plg_content_contact.sys.ini
+administrator/language/en-GB/en-GB.plg_installer_webinstaller.ini
+administrator/language/en-GB/en-GB.plg_installer_webinstaller.sys.ini
+administrator/language/en-GB/en-GB.plg_twofactorauth_totp.ini
+administrator/language/en-GB/en-GB.plg_twofactorauth_totp.sys.ini
+administrator/language/en-GB/en-GB.plg_twofactorauth_yubikey.ini
+administrator/language/en-GB/en-GB.plg_twofactorauth_yubikey.sys.ini
+administrator/language/en-GB/install.xml
 administrator/language/en-GB/en-GB.plg_content_vote.ini
 administrator/language/en-GB/en-GB.plg_content_vote.sys.ini
 administrator/language/en-GB/en-GB.plg_editors_*
@@ -66,6 +75,8 @@ media/mod_languages/*
 media/overrider/*
 media/plg_quickicon*
 media/plg_system_highlight/*
+media/com_contenthistory/*
+media/com_wrapper/*
 media/system/*
 media/index.html
 modules/*
@@ -89,6 +100,8 @@ plugins/content/finder/*
 plugins/finder/*
 plugins/quickicon/*
 plugins/editors-xtd/*
+plugins/content/contact/*
+plugins/twofactorauth/*
 plugins/index.html
 templates/
 layouts/*
