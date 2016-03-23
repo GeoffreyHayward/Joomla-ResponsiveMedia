@@ -23,10 +23,14 @@ class plgContentResponsiveMedia extends JPlugin{
         if(preg_match_all('/{embed:(.*?):(.*?)}/', $row->text, $matches)){
             for($index = 0; $index < sizeof($matches[1]); $index++){
                 if(method_exists($this, $matches[1][$index])){
-                   $row->text = preg_replace('/{embed:'.$matches[1][$index].':'.$matches[2][$index].'}/', $this->$matches[1][$index]($matches[2][$index]), $row->text); 
+                    $row->text = preg_replace(
+                        '/{embed:' . $matches[1][$index] . ':' . $matches[2][$index] . '}/',
+                        $this->{$matches[1][$index]}($matches[2][$index]),
+                        $row->text
+                    );
                 }
             }
-            $doc = & JFactory::getDocument();
+            $doc = JFactory::getDocument();
             $doc->addStyleSheet('media/plg_content_responsivemedia/responsive-media.css');
         }
     }
